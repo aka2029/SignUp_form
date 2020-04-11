@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<title>Sign Up</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #344A71;
+  }
+
+  .container {
+    position: absolute;
+    line-height: 1.6em;
+    margin: 15px 35%;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 2% 6%;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  #fill-form p, article p {
+    font-size: 14px;
+    position: relative;
+  }
+
+  .btn {
+    width: 100%;
+    background-color: #49C1A2;
+    border-radius: 10px;
+    padding: 10px 4px;
+  }
+
+  #heading, article p, .container footer p {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  footer p {
+    color: #fff;
+  }
+
+  footer a {
+    color: #fff;
+  }
+</style>
+</head>
+
+<body>
+<div class="container">
+    <section id="heading">
+      <h2>Sign Up</h2>
+      <p><strong>It's free and only takes a minute</strong></p> <br>
+    </section>
+
+    <section id="fill-form">
+      <p>Username</p>
+      <input type="text" placeholder="Enter your preferred username"> <br>
+
+      <p>Email Address</p>
+      <input type="email" placeholder="Enter your email"> <br>
+
+      <p>Password</p>
+      <input type="password" placeholder="Enter your password"> <br>
+      
+      <p>Confirm Password</p>
+      <input type="password" placeholder="Re-enter your password"> <br>
+    </section>
+<br>
+    <article>
+      <button class="btn">
+        <p><strong>Sign Up</strong></p>
+      </button><br><br>
+
+      <p>By clicking the Sign Up button, you agree to our Terms & Conditions and Privacy Policy.</p>
+    </article>
+</div>
+<footer>
+    <p>Already have an account? <a href="#">Login here</a></p>
+  </footer>
+</body>
+</html>
